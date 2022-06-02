@@ -17,7 +17,7 @@
   - ## () で正規表現内の勲位を指定して、後に配列等の変数で( $1 や $2 と言う表現もある ) 結果を部分取得できる
 
 - ### CSS 
-  - IFRAME を使う為の calc
+  - IFRAME を使う為の calc ( ここでは、#head と #extend という縦に並ぶブロックをブラウザ内で自動リサイズする為に使用 )
   - CSS 内で使用する変数 [var(変数名) : カスタムプロパティ](https://www.webcreatorbox.com/tech/css-variables)
 ```css
 @charset "utf-8";
