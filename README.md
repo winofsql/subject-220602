@@ -18,7 +18,7 @@
 
 - ### CSS 
   - IFRAME を使う為の calc
-  - CSS 内で使用する変数 var(変数名)
+  - CSS 内で使用する変数 [var(変数名) : カスタムプロパティ](https://www.webcreatorbox.com/tech/css-variables)
 ```css
 @charset "utf-8";
 
