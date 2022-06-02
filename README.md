@@ -15,3 +15,36 @@
   - ## . は任意の文字列
   - ## ? は直前の検索文字列にヒットする一番短いパターン
   - ## () で正規表現内の勲位を指定して、後に配列等の変数で( $1 や $2 と言う表現もある ) 結果を部分取得できる
+
+- ### CSS 
+  - IFRAME を使う為の calc
+  - CSS 内で使用する変数 var(変数名)
+```css
+@charset "utf-8";
+
+:root {
+  --s-height: 250px;
+}
+
+/* IFRAME で表示する */
+html,body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+#head {
+    width: 100%;
+    height: var(--s-height);
+    background-color: #fff;
+}
+#extend {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: calc( 100% - 3px );
+    height: calc( 100% - var(--s-height) - 2px );
+    border: solid 2px #c0c0c0;
+}
+```
